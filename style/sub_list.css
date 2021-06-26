@@ -1,0 +1,145 @@
+.sub_list_title1 {
+    margin: 10px 2px;
+    width: 700px;
+    height: 80px;
+    background-image: url(../images/sub2-title.png);
+    background-repeat: no-repeat;
+    background-size: 700px 80px;
+}
+
+
+
+.sub_list_title1 > h3 {
+    position: relative;
+    left: 97px;
+    top: 15px;
+}
+.sub_list_title1 > span {
+    position: relative;
+    left: 422px;
+    top: -6px;
+    font-size: 14px;
+}
+
+
+
+.sub_list_title2 {
+    margin: 10px 2px;
+    width: 700px;
+    height: 320px;
+    background-image: url(../images/sub2-main.png);
+    background-repeat: no-repeat;
+    background-size: 700px 320px;
+    position: relative;
+}
+
+
+.sub_list_title2 .sub2-words {
+    position: absolute;
+    left: 348px;
+    top: -1px;
+}
+.sub_list_title2 .sub2-words1 {
+    position: absolute;
+    left: 377px;
+    top: 58px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words2 {
+    position: absolute;
+    left: 377px;
+    top: 86px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words4 {
+    position: absolute;
+    left: 377px;
+    top: 141px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words5 {
+    position: absolute;
+    left: 377px;
+    top: 167px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words6 {
+    position: absolute;
+    left: 377px;
+    top: 194px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words7 {
+    position: absolute;
+    left: 377px;
+    top: 256px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words8 {
+    position: absolute;
+    left: 505px;
+    top: 256px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words9 {
+    position: absolute;
+    left: 631px;
+    top: 256px;
+    font-size: 14px;
+}
+.sub_list_title2 .sub2-words10 {
+    position: absolute;
+    left: 144px;
+    top: 275px;
+    font-size: 14px;
+}
+
+.sub_list_title3 {
+    margin: 10px 15px;
+    width: 300px;
+    height: 55px;
+    background-image: url(../images/sub2_xiong_back.png);
+    background-repeat: no-repeat;
+    background-size: 300px 50px;
+    position: relative;
+}
+
+.sub_list_title4 {
+    margin: 10px 15px;
+    width: 700px;
+    height: 320px;
+    background-image: url(../images/sub2.png);
+    background-repeat: no-repeat;
+    background-size: 665px 278px;
+    position: relative;
+}
+.sub_list_title3 > img {
+    position: absolute;
+    left: 20px;
+    top: -10px;
+}
+.sub_list_title3 > p {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+.sub_list_ul {
+    padding-left: 50px;
+    font-size: 15px;
+}
+
+
+.sub_list_title4 > p {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.sub_list_title4 > span {
+    position: absolute;
+    left: 464px;
+    top: 37px;
+}
+.sub_list_title4 > span:last-child {
+    position: absolute;
+    left: 592px;
+    top: 37px;
+}

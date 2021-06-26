@@ -1,22 +1,5 @@
 
 
-body {
-    margin: 0;
-}
-ul ,li {
-    margin: 0;
-    padding: 0;
-}
-li {
-    list-style: none;
-}
-
-.clearfix::after {
-    clear: both;
-    content: '';
-    display: block;
-}
-
 /* 顶部样式开始 */
 .top {
     width: 100%;
@@ -24,6 +7,14 @@ li {
     margin: 0 auto;
     text-align: center;
     position: relative;
+    z-index: 9;
+}
+.top-content {
+    position: relative;
+    z-index: 9;
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 .top .top-image {
@@ -39,16 +30,18 @@ li {
 
 .top .top-dog {
     position: absolute;
-    left: 436px;
-    top: 73px;
-    width: 6%;
+    left: 20px;
+    top: 94px;
+    width: 103px;
+    height: 195px;
 }
 
-.top .top-word {
+/* 欢迎文字 */
+.top .top-content p {
     position: absolute;
-    left: 850px;
-    top: 50px;
-    width: 25%;
+    left: 500px;
+    top: 70px;
+    color: #3381bb;
 }
 
 .top .logo {
@@ -59,8 +52,8 @@ li {
     border-radius: 10px;
     line-height: 60px;
     position: absolute;
-    left: 458px;
-    top: 5px;
+    left: 50px;
+    top: 35px;
 }
 /* 顶部样式结束 */
 /* 底部样式开始 */
@@ -71,7 +64,31 @@ li {
     background-repeat: no-repeat;
     background-size: 935px 160px;
     margin: 0 auto;
+    position: relative;
+    
 }
+.footer .footer-left {
+    position: absolute;
+    top: 97px;
+    left: 66px;
+    font-size: 14px;
+}
+
+.footer .footer-center {
+    position: absolute;
+    top: 54px;
+    left: 270px;
+    font-size: 14px;
+}
+
+.footer .footer-bottom {
+    position: absolute;
+    top: 132px;
+    left: 282px;
+    font-size: 14px;
+}
+
+
 /* 底部样式结束 */
 /* 内容区 */
 .content {
@@ -83,6 +100,7 @@ li {
     background-size: 1024px 1165px;
     position: relative;
     top: -60px;
+    z-index: 11;
 }
 
 .content .left {
@@ -120,29 +138,70 @@ li {
     left: 10px;
     top: 137px;
 }
-/* 登陆 */
+/* 会员注册 */
 .content .left .login .login4 {
     font-size: 15px;
     position: absolute;
     left: 51px;
     top: 164px;
 }
-/* 取消 */
+/* 找回密码 */
 .content .left .login .login5 {
     font-size: 15px;
     position: absolute;
     left: 124px;
     top: 164px;
 }
+/* 产品搜索 */
+.content .left .login .login6 {
+    color: #7ea3cd;
+    font-size: 20px;
+    position: absolute;
+    left: 86px;
+    top: 240px;
+}
+/* 产品详细搜索 */
+.content .left .login .login7 {
+    font-size: 15px;
+    position: absolute;
+    left: 61px;
+    top: 318px;
+}
 
+/* 种类 */
 .content .left .class-name {
     
     width: 215px;
     height: 340px;
     background: url(../images/list2.jpg) no-repeat;
     background-size: 215px 340px;
+    position: relative;
 
 }
+/* 种类 标题 */
+.content .left .class-name h2 {
+    position: absolute;
+    left: 78px;
+    top: 14px;
+}
+
+.ad-list {
+    position: absolute;
+    left: 52px;
+    top: 90px;
+}
+
+.ad-list li {
+    line-height: 27px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+.ad-list li:hover{
+    color: #ea31ba;
+    font-weight: bold;
+}
+
 
 
 .content .left .ad {
@@ -150,9 +209,34 @@ li {
     height: 400px;
     background: url(../images/list3.png) no-repeat;
     background-size: 215px 400px;
-
+    position: relative;
 }
 
+.ad .ad-blue {
+    position: absolute;
+    left: 130px;
+    top: 20px;
+    font-size: 12px;
+}
+.ad h4 {
+    position: absolute;
+    left: 13px;
+    top: 140px;
+    font-size: 14px;
+}
+.ad .ad-fff {
+    position: absolute;
+    left: 40px;
+    top: 176px;
+    font-size: 12px;
+}
+
+.ad .ad-bank {
+    position: absolute;
+    left: 51px;
+    top: 341px;
+    font-size: 12px;
+}
 
 
 
@@ -201,18 +285,157 @@ li {
     float: left;
     width: 75px;
     height: 278px;
-    background: url(../images/smallAd.png) no-repeat;
+    background-image: url(../images/smallAd.png);
+    background-repeat: no-repeat;
     background-size: 75px 278px;
 
     margin-top: 74px;
 
 }
 
+.content .smallAd p {
+    margin-top: 66px;
+    padding-left: 20px;
 
-
-
-
-
-.back{
-    background-color: #bbedff;
 }
+
+
+
+
+/* 主体内容 */
+.main .product {
+    width: 685px;
+    height: 180px;
+    margin: 5px auto;
+    overflow: hidden;
+}
+
+.main .product1-1 {
+    width: 390px;
+    height: 180px;
+    background-color: #f4f4f4;
+    float: left;
+    margin: 0 5px;
+    border: 1.5px solid #d6d6d6;
+    border-radius: 5%;
+}
+
+.main .product1-2 {
+    width: 265px;
+    height: 180px;
+    background-color: #f4f4f4;
+    float: left;
+    margin: 0 5px;
+    border: 1.5px solid #d6d6d6;
+    border-radius: 5%;
+}
+
+.main .product1-1 .product1-dog {
+    width: 109px;
+    height: 172px;
+    float: right;
+}
+.main .product1-1 .product1-photo {
+    float: left;
+    width: 99px;
+    height: 119px;
+    margin-top: 50px;
+}
+
+.main .product1-2 .ball {
+    width: 58px;
+    height: 36px;
+    padding: 10px;
+    float: left;
+}
+.main .product1-2 ul {
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.main .product1-2 ul li{
+    line-height: 22px;
+    font-size: 14px;
+    color: #696969;
+    border-bottom: 1px dashed;
+}
+
+
+.goods {
+    /* background-color: #fcc; */
+}
+
+.goods-col1 {
+    padding: 10px;
+    width: 384px;
+    float: left;
+}
+.goods-row1 {
+    position: relative;
+    padding-top:2px;
+    padding-left: 2px;
+    width: 382px;
+    height: 435px;
+    background: url(../images/goods-list.png);
+}
+.goods-row1 > p {
+    position: absolute;
+    left: 49px;
+    top: 15px;
+}
+.goods-title-img {
+    position: absolute;
+    left: 6px;
+    top: 9px;
+}
+.goods-view {
+    position: absolute;
+    left: 15px;
+    bottom: 36px;
+}
+
+
+.goods-col2 {
+    float: left;
+}
+
+
+.goods-right-col1 {
+    padding: 10px;
+    width: 243px;
+    height: 299px;
+    margin-left: 10px;
+    background-image: url(../images/goods-right-back.png);
+    background-size: 263px 318px;
+    position: relative;
+}
+.goods-right-col1  p {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+.goods-col1-title {
+    width: 230px;
+    height: 50px;
+}
+
+.goods-right-col2{
+    position: relative;
+    padding: 10px;
+    width: 243px;
+    height: 299px;
+    margin-left: 10px;
+}
+.goods-back-fff {
+    position: absolute;
+    left: 16px;
+    top: 20px;
+}
+.goods-right-col2-words {
+    position: absolute;
+    left: 34px;
+    top: 71px;
+}
+
+
+
+

@@ -6,20 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/index.css">
 </head>
 
 <body>
     <!-- 顶部开始 -->
     <div class="top">
-        <div class="logo">
-            <img src="./images/top-first-logo.png" alt="">
-            <img src="./images/top-logo.png" alt="">
-        </div>
-        <img class="top-image" src="images/top.png" alt="">
         <img class="top-background" src="images/top-background.png" alt="">
-        <img class="top-dog" src="./images/top-dog.png" alt="">
-        <img class="top-word" src="./images/top-word.png" alt="">
+
+        <div class="top-content">
+            <div class="logo">
+
+                <img src="./images/top-first-logo.png" alt="">
+                <img src="./images/top-logo.png" alt="">
+            </div>
+            <ul class="first-nav">
+                <li><a href="index.html">首页</a></li>
+                <li class="food"><a href="article.html">宠物食品</a>
+                    <ul class="sec-nav">
+                        <li>狗粮</li>
+                        <li>猴粮</li>
+                        <li>鸟食</li>
+                        <li>龟食</li>
+                        <li>蛇食</li>
+                    </ul>
+                </li>
+                <li><a href="article_list.html">服务</a></li>
+            </ul>
+            <img class="top-image" src="images/top.png" alt="">
+
+            <img class="top-dog" src="./images/top-dog.png" alt="">
+
+            <p>欢迎来到宝瓶瓶，欢迎所有爱东方的人。</p>
+        </div>
+
     </div>
     <!-- 顶部结束 -->
 
@@ -32,15 +54,46 @@
                 <span class="login1">用户登陆</span>
                 <span class="login2">用户名</span>
                 <span class="login3">密码</span>
-                <span class="login4">登陆</span>
-                <span class="login5">取消</span>
+                <span class="login4">会员注册</span>
+                <span class="login5">找回密码</span>
+                <span class="login6">产品搜索</span>
+                <span class="login7">产品详细搜索</span>
+
+                <span></span>
             </div>
             <div class="class-name ">
-
+                <h2 class="ad-title">类别</h2>
+                <ul class="ad-list">
+                    <li class="ad-item">零食</li>
+                    <li>沐浴/美容</li>
+                    <li>饲料</li>
+                    <li>药品</li>
+                    <li>服务</li>
+                    <li>类</li>
+                    <li>卫生用品</li>
+                    <li>营养液</li>
+                    <li>种类</li>
+                </ul>
             </div>
 
             <div class="ad">
+                <ul class="ad-blue">
+                    <li>提问和回答(0&A)</li>
+                    <li>物品使用后</li>
+                    <li>拍照</li>
+                </ul>
 
+                <h4>neopen购物首先想到的是顾客</h4>
+                <ul class="ad-fff">
+                    <li>客服中心:054-775-4310</li>
+                    <li>master@neobiz.net</li>
+                    <li>咨询时间:平日09:30-18:30周末09:30-15:30</li>
+                </ul>
+                <p class="ad-bank">
+                    汇款账号指南储户:
+                    通吉东民银行:123456-45-122345
+                    房行:123345-3455565
+                </p>
             </div>
 
         </div>
@@ -52,30 +105,112 @@
                 <ul class="title-nav clearfix">
                     <li>狗粮</li>
                     <li>猴粮</li>
-                    <li>鸟屎</li>
+                    <li>鸟食</li>
                     <li>龟食</li>
                     <li>蛇食</li>
                 </ul>
 
 
             </div>
+            <!-- 主体内容开始 -->
             <div class="main">
+                <div class="product">
+                    <div class="product1-1">
 
+                        <img class="product1-photo" src="images/product1-2.png" alt="">
+                        <img class="product1-dog" src="images/product1-1.png" alt="">
+                        <h2>产品目录</h2>
+                        <p>上传漂亮小狗的照片</p>
+                    </div>
+                    <div class="product1-2">
+                        <img class="ball clearfix" src="images/ball.png" alt="">
+                        <p>公港&活动信息</p>
+                        <ul>
+                            <li>标题图标如下</li>
+                            <li>每个人都要注意事项</li>
+                            <li>活动中奖</li>
+                            <li>指南导向</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="goods clearfix">
+                    <!-- 第一列 -->
+                    <div class="goods-col1">
+                        <div class="goods-row1">
+                            <img src="images/goods-title.png" alt="">
+                            <img class="goods-title-img" src="images/goods-title-img.png" alt="">
+                            <p>新产品荟萃</p>
+                            <img src="./images/goods--item.png" alt="">
+                            <img class="goods-view" src="./images/goods-view.png" alt="">
+                        </div>
+                        <div class="goods-row1">
+                            <img src="images/goods-title.png" alt="">
+                            <img class="goods-title-img" src="images/goods-title-img.png" alt="">
+                            <p>neoopet最佳商品集</p>
+                            <img src="./images/goods--item2.png" alt="">
+
+                        </div>
+                    </div>
+                    <!-- 第二列 -->
+                    <div class="goods-col2">
+                        <div class="goods-right-col1">
+                            <div class="goods-col1-title">
+                                <img src="./images/goods-right-title.png" alt="">
+                                <p>
+                                    商品展
+                                </p>
+                            </div>
+                            <img src="./images/goods-right-titleBottom.png" alt="">
+                            <img src="./images/goods-right-content1.png" alt="">
+                        </div>
+                        <div class="goods-right-col1">
+                            <p>
+                                照片展
+                            </p>
+                            <img src="./images/goods-right-green.png" alt="">
+                            <img src="./images/goods-right-content.png" alt="">
+                        </div>
+                        <div class="goods-right-col2">
+                            <img class="goods-back-fff" src="./images/goods-back-fff.png" alt="">
+                            <img src="./images/goods-back-geay.png" alt="">
+                            <img class="goods-right-col2-words" src="./images/goods-right-col2-words.png" alt="">
+                        </div>
+                    </div>
+                </div>
             </div>
+            <!-- 主体内容结束 -->
         </div>
         <!-- 内容区右侧 结束 -->
 
-        <!-- 最右侧小广告 -->
+        <!-- 最右侧小广告开始 -->
         <div class="smallAd">
-
+            <p>购物车</p>
+            <p>派送</p>
+            <p>自助</p>
         </div>
+        <!-- 最右侧小广告结束 -->
     </div>
     <!-- 内容区结束 -->
 
     <!-- 底部开始 -->
     <div class="footer">
+        <p class="footer-left">
+            新能源公司使用<br>官方认证的标准条款。
+        </p>
 
+
+        <ul class="footer-center">
+            <li>公司注册号码:12345-12345</li>
+            <li>代表:洪吉童个人信息保护负责人:庞吉东/E-Mail: master@neobiz.net</li>
+            <li>事业场:庆州市东国大学风险中心212号</li>
+        </ul>
+        <p class="footer-bottom">
+            NeoPet公司版权所有
+        </p>
     </div>
+    <!-- 底部结束 -->
+
+
 
 </body>
 
